@@ -19,9 +19,7 @@ RUN set -ex \
                 py3-requests \
                 tiff \
                 libwebp \
-                zlib \
-        && ln -sf "$(python3 -c 'import requests; print(requests.__path__[0])')/cacert.pem" \
-                  "$(python3 -c 'import certifi; print(certifi.__path__[0])')/cacert.pem"
+                zlib
 
 RUN set -ex \
         && apk add --update --no-cache --virtual .fetch-deps \
