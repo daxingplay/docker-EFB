@@ -11,4 +11,6 @@ $ docker run -v config.py:/opt/ehForwarderBot/config.py -v tgdata.db:/opt/ehForw
 * `/opt/ehForwarderBot/config.py` - the configuration file for [EH Forwarder Bot](https://github.com/blueset/ehForwarderBot)
 * `/opt/ehForwarderBot/plugins/eh_telegram_master/tgdata.db` - the file which holds the link information and message logs
 
+Or you can use `/opt/ehForwarderBot` instead
+
 [Official Documentation](https://ehforwarderbot.readthedocs.io)
